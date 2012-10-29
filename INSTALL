@@ -1,0 +1,3 @@
+sudo apt-get install imagemagick imagemagick-common
+sudo apt-get install ruby-rmagick
+sudo apt-get install graphicsmagick-libmagick-dev-compat
