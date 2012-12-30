@@ -1,3 +1,26 @@
+sudo apt-get install apache2 apache2-doc apache2-utils
+sudo apt-get install libapache2-mod-ruby
+sudo apt-get build-dep build-essential
 sudo apt-get install imagemagick imagemagick-common
 sudo apt-get install ruby-rmagick
 sudo apt-get install graphicsmagick-libmagick-dev-compat
+sudo apt-get install libjpeg-turbo-progs
+sudo apt-get install tree
+sudo apt-get install mysql-client-core-5.5
+sudo apt-get install libmysqlclient15-dev
+sudo apt-get install mysql-server
+sudo apt-get clean && sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libapr1-dev
+sudo apt-get install aptitude
+sudo apt-get -f install
+sudo apt-get clean all
+sudo apt-get autoremove
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libaprutil1-dev
+sudo apt-get install apache2-prefork-dev
+sudo apt-get install libcurl4-openssl-dev
+passenger-install-apache2-module
+sudo gem install bundler
+sudo apt-get install capistrano
