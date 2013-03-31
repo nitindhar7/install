@@ -25,3 +25,5 @@ passenger-install-apache2-module
 sudo gem install bundler
 sudo apt-get install capistranosudo apt-get install ia32-libs
 sudo apt-get install ant
+sudo apt-get install maven
+sudo apt-get install gimp
