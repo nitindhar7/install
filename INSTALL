@@ -27,3 +27,29 @@ sudo apt-get install capistranosudo apt-get install ia32-libs
 sudo apt-get install ant
 sudo apt-get install maven
 sudo apt-get install gimp
+sudo apt-get install unrar
+sudo apt-get install optipng
+cd /usr/src/
+sudo wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.1.tar.bz2
+sudo tar -xvf Sublime\ Text\ 2.0.1.tar.bz2
+sudo mv Sublime\ Text\ 2 SublimeText2
+sudo nano /usr/share/applications/SublimeText2.desktop
+[Desktop Entry]
+Version=2.0.1
+Type=Application
+Terminal=false
+StartupNotify=true
+Icon=/usr/src/SublimeText2/Icon/48x48/sublime_text.png
+Name=Sublime Text 2
+Comment=Programming IDE
+Exec=/usr/src/SublimeText2/sublime_text
+Categories=Application;Development;
+sudo nano ~/.local/share/applications/defaults.list
+[Default Applications]
+text/css=SublimeText2.desktop
+text/x-python=SublimeText2.desktop
+text/html=SublimeText2.desktop
+application/x-php=SublimeText2.desktop
+application/x-ruby=SublimeText2.desktop
+application/x-perl=SublimeText2.desktop
+application/javascript=SublimeText2.desktop
