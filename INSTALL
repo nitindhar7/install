@@ -54,3 +54,4 @@ application/x-ruby=SublimeText2.desktop
 application/x-perl=SublimeText2.desktop
 application/javascript=SublimeText2.desktop
 sudo apt-get install compiz-fusion-plugins-extra
+sudo apt-get install compizconfig-settings-manager wmctrl
